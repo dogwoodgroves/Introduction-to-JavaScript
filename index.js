@@ -18,7 +18,13 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = 18;
+if(votingAge < 18){
+  console.log("You can't vote");
+}
+else{
+  console.log("Vote for your favorite candidate");
+}
 
 /*
 Task 1b - Values
@@ -31,9 +37,13 @@ Do the following:
    HINT: no function required
 */
 
-
-
-
+const a = 2;
+const b = 3;
+if (a < b){
+  a=58000 
+  console.log(a)
+  return(a)
+}
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -46,8 +56,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let x = Number("1999")
+console.log(x);
 
 /*
 Task 1d - Multiply
@@ -63,8 +73,6 @@ function multiply(a, b){
   }
   console.log(multiply(1,3));
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Age in Dog years
@@ -75,11 +83,9 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age) {
+  return (age*7)
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -152,10 +158,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(kilometers){
+    return kilometers * 0.62
   }
-
+// KM *0.62
 
 
 //Task 5b - Feet to CM
@@ -173,7 +179,6 @@ function feet(/*add your code here*/){
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
 // Let's Sing 99 Bottles of Soda on the Wall!
 /*
 Using the annoyingSong function below do the following:
@@ -182,10 +187,16 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
-
+function annoyingSong(number) {
+  var song = [ var i = number; i > 0; i--) {
+    i = " bottles of soda on the wall"
+    i = "bottles of soda!"
+    "take one down, pass it around", (i -i) + "bottles on the wall"
+  
+  ]
+  console.log(song)
+  return (song);
+}
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
